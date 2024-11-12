@@ -154,3 +154,46 @@ button:hover {
   padding: 20px 0;
   text-align: center;
 }
+
+/* Media Queries untuk Responsif */
+
+/* Tampilan Tablet */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .carousel img {
+    width: 90%;
+  }
+}
+
+/* Tampilan Ponsel */
+@media (max-width: 480px) {
+  .hero {
+    padding: 50px 10px;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .message, .gallery, .thank-you {
+    padding: 20px 15px;
+    max-width: 95%;
+  }
+
+  .carousel img {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
